@@ -25,7 +25,7 @@ tokenizer = AutoTokenizer.from_pretrained(model_path)
 print("Model loaded successfully in 4-bit mode!\n")
 
 # Configuration
-model_name = "Qwen2.5-1.5b"
+model_name = ""
 task_name = "adversarial-attacks"
 csv_path_1 = os.path.join(os.getcwd(), "adv_q3.csv")
 csv_path_2 = os.path.join(os.getcwd(), "adv_q4.csv")
